@@ -7,14 +7,31 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h2>Test login form</h2>
     
-    <form action="url" class="login_form">
-        <label for="login_area">Login</label><br>
-        <input type="text" id="login_area"><br><br>
-        <label for="password_area">Password</label><br>
-        <input type="text" id="password_area"><br><br>
-        <button>Login</button>
-    </form>
+    <head class="headInformation">
+        <h2 class="header_text">form practice</h2>
+    </head>
+ 
+    <nav class="navigation">
+        <ul class="navigation_list">
+            <li><a href="/practice_form/index.html">Login form</a></li>
+            <li><a href="/practice_form/card.html">Card form</a></li>
+            <li><a href="/practice_form/contact_form.html">Contact form</a></li>
+        </ul>
+    </nav>
+    
+    <div class="form_container">
+        <h2 class="form_name">Login form</h2>
+        <form action="url" class="login_form">
+            <div class="login_area">
+                <input type="text" placeholder="Login">
+            </div>
+            <div class="password_area">
+                <input type="password" placeholder="Password">
+            </div>
+            <input type="submit">
+        </form>
+    </div>
+    
 </body>
 </html>
