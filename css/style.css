@@ -1,7 +1,13 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
+.navigation{
+
+}
+
 .navigation_list{
+    display: flex;
+    justify-content: center;
     list-style-type: none;
     border: 1px solid black;
 
@@ -12,11 +18,15 @@
     padding: 10px;
 }
 
+a{
+    text-decoration: none;
+}
 
 .form_container{
     display: inline-block;
     border: 1px solid black;
     border-radius: 3%;
+    box-shadow: 10px 10px 5px 0px black;
 }
 
 .form_name{
@@ -33,4 +43,18 @@
 
 .password_area{
     margin-bottom: 15px;
+}
+
+.blog_cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 250px;
+    height: 280px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
 }
